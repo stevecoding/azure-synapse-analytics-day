@@ -4,9 +4,11 @@ In this exercise, you will realize another benefit of the fully integrated envir
 
 The Power BI Workspace has already been created for you.
 
-- [Exercise 3 - Power BI integration](#exercise-3---power-bi-integration)
-  - [Task 1 - Create a Power BI dataset in Synapse](#task-1---create-a-power-bi-dataset-in-synapse)
-  - [Task 2 - Create a Power BI report in Synapse](#task-2---create-a-power-bi-report-in-synapse)
+The tasks you will perform in this exercise are:
+
+- Exercise 3 - Power BI integration
+  - Task 1 - Create a Power BI dataset in Synapse
+  - Task 2 - Create a Power BI report in Synapse
 
 ---
 
@@ -24,7 +26,7 @@ In this task, you will use Power BI Desktop to create the dataset used by the re
 
 1. Open Synapse Analytics Studio, and then navigate to the `Develop hub`.
 
-2. Expand **Power BI -> Azure Synapse Event** and then select **Power BI datasets**.
+2. Expand **Power BI**, expand the first node under it, and then select **Power BI datasets**.
 
    ![Selecting Power BI datasets in the Develop panel](media/ex03-pbi-menu.png "Select Power BI datasets")
 
@@ -56,11 +58,11 @@ In this task, you will use Power BI Desktop to create the dataset used by the re
 
     ![Selecting the wwi.FactSale table and viewing the preview](media/ex03-pbi-directquery.png "Set query type")
 
-11. From the **File** menu, select **Publish** and then select **Publish to Power BI**. If prompted to save your changes, select Save and provide a unique name that includes your _UNIQUEID_, which you retrieved from your username, as described above. This will also be the name used for the dataset. You may be prompted to login a second time. Follow the login prompts to login with the credentials provided to you.
+11. From the **File** menu, select **Publish** and then select **Publish to Power BI**. If prompted to save your changes, select Save and provide a unique name having the format `user_dataset_UNIQUEID` (where _UNIQUEID_ is the unique identifier which you retrieved from your username, as described above). This will also be the name used for the dataset. You may be prompted to login a second time. Follow the login prompts to login with the credentials provided to you.
 
     ![Selecting Publish to Power BI from the File menu](media/ex03-publish-menu.png "Publish to Power BI")
 
-12. In the dialog that appears, select the provided Power BI workspace (it should be the second option in the list). Do not select the item labeled My workspace. Choose **Select**.
+12. In the dialog that appears, select the provided Power BI workspace (the first one that appears under the `Power BI` section in the `Develop` hub). Do not select the item labeled My workspace. Choose **Select**.
 
     ![Selecting the correct Power BI workspace](media/ex03-select-workspace.png "Select workspace")
 
@@ -76,7 +78,7 @@ In this task, you will use Power BI Desktop to create the dataset used by the re
 
 In this task, you will learn how to use a collaborative approach to create a new Power BI report within Synapse Analytics Studio. To do this, you will use a dataset that was not originally created by you.
 
-1. Select the `wwifactsale` dataset within the panel that appears. When you hover over the dataset, a button for creating a new Power BI report will appear. Select that button.
+1. Select the `wwifactsales` dataset within the panel that appears. When you hover over the dataset, a button for creating a new Power BI report will appear. Select that button.
 
    ![Selecting new Power BI report from dataset](media/ex03-select-new-power-bi-report.png "Select dataset")
 

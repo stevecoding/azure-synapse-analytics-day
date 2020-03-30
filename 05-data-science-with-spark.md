@@ -26,11 +26,11 @@ All the of the steps are performed within your Azure Synapse Analytics Studio.
 
 > What is ONNX? [ONNX](https://onnx.ai/) is an acronym for the Open Neural Network eXchange and is an open format built to represent machine learning models, regardless of what frameworks were used to create the model. This enables model portability, as models in the ONNX format can be run using a wide variety of frameworks, tools, runtimes and platforms. Think of it like a universal file format for machine learning models.
 
-In this exercise, you will focus on step (2) from the above.
+In this exercise, you will focus on step (2) from the above. The tasks you will perform are:
 
-- [Exercise 5 - Data Science with Spark](#exercise-5---data-science-with-spark)
-  - [Task 1 - Making predictions with a trained model](#task-1---making-predictions-with-a-trained-model)
-  - [Task 2 - Examining the model training and registration process (Optional)](#task-2---examining-the-model-training-and-registration-process-optional)
+- Exercise 5 - Data Science with Spark
+  - Task 1 - Making predictions with a trained model
+  - Task 2 - Examining the model training and registration process (Optional)
 
 ## Task 1 - Making predictions with a trained model
 
@@ -75,6 +75,6 @@ If you are curious, you can see the notebook and SQL scripts that were used to t
 
 5. One step that is not shown by the notebook is an offline step that converts the ONNX model to hexadecimal. The resulting hex encoded model is also upload to Azure Storage. This conversion is currently performed with [this PowerShell script](artifacts/05/convert-to-hex.ps1), but could be automated using any scripting platform.
 
-6. Once you have read thru the notebook, return to the `Develop hub`, expand **SQL scripts** and select `Exercise 5 - Register model`. View but do not run this script.
+6. Once you have read thru the notebook, return to the `Develop hub`, expand **SQL scripts** and select `Exercise 5 - Register model`. View but **do not run this script**.
 
 7. This script uses PolyBase to load the hex encoded model from Azure Storage into a table within the SQL Pool database. Once the model is inserted into the table in this way, it is available for use by the Predict statement as was shown in Task 1.
