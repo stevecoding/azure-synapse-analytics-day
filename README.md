@@ -26,7 +26,7 @@ The diagram below provides a unified view of the exercises in the lab and their 
 
 ![Azure Synapse Analytics Lab Exercises](./media/exercises.png "Solution architecture")
 
-## Exercise 1 - Explore the data lake with Azure Synapse SQL Serverless and Azure Synapse Spark
+## Exercise 1 - Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark
 
 In this exercise you will explore data using the engine of your choice (SQL or Spark).
 
@@ -34,7 +34,7 @@ Understanding data through data exploration is one of the core challenges faced 
 
 In Azure Synapse Analytics, you have the possibility of using either the SQL Serverless engine, the big-data Spark engine, or both.
 
-## Exercise 2 - Build Modern Data Warehouse pipelines
+## Exercise 2 - Build a Modern Data Warehouse with Azure Synapse Pipelines
 
 In this exercise you will use a pipeline with parallel activities to bring data into the Data Lake, transform it and load it into the Azure Synapse SQL Pool. You will also monitor the progress of the associated tasks.
 
@@ -58,9 +58,9 @@ SQL data warehouses have been for a long time the centers of gravity in data pla
 
 The Azure Synapse SQL Pools in Azure Synapse Analytics is the new incarnation of the former Azure SQL Data Warehouse. It provides all the modern SQL data warehousing features while benefiting from the advanced integration with all the other Synapse services.
 
-## Exercise 5 - Data Science with Spark
+## Exercise 5 - Data Science with Azure Synapse Spark
 
-In this exercise you will play the role of a Data Scientist that based on the <TBD> dataset, using Synapse Spark, creates a model to predict <TBD>.
+In this exercise you will play the role of a Data Scientist that based on the WWI sales dataset, using Azure Synapse Spark, creates a model to predict customer purchase volumes.
 
 Modern era data environments must handle in a performant and seamless way any data an organization might have. In almost all cases, this means a combination of relational SQL-style capabilities and big data ones. In the world of massively distributed big data processing platforms, Spark is almost an implicit choice.
 
